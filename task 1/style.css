@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+.decrement{
+    font-family: 'Langar', cursive;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    color: white;
+    box-shadow: 5px 5px 10px #000;
+}
+.increment{
+    font-family: 'Langar', cursive;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    color: white;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.place{
+    font-family: 'Langar', cursive;
+    width: 50%;
+    height: 25px;
+    box-shadow: 5px 5px 10px #000;
+}

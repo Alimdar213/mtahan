@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+}
+
+
+
+.box1
+{
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-color: thistle;
+}
+.box2
+{
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-color: yellowgreen;
+}
+.box3
+{
+    color: white;
+    height: 60px;
+    width: 60px;
+    background-color: teal;
+}

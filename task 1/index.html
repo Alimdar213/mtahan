@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button class="decrement" onclick="cixma()">-</button>
+        <input  value="0" id="cavab"  >
+        <button class="increment" onclick="toplama()">+</button>
+    </div>
+    <script>
+   function toplama(){
+
+var evvelki = parseInt( document.getElementById('cavab').value );
+document.getElementById('cavab').value = evvelki+1;
+}
+
+function cixma(){
+var evvelki = parseInt( document.getElementById('cavab').value );
+document.getElementById('cavab').value = evvelki-1;
+}
+  
+    </script>
+    
+</body>
+</html>
